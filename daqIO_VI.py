@@ -1,5 +1,5 @@
 """ A set of experiments to measure current as a function of several applied voltages
-    These experiments all use the PCI-6259 DAQ and a current amplifier. """
+    These experiments all use the PCI-6259 DAQ and a current to voltage amplifier. """
     
 from __future__ import division
 import time, os, math
@@ -255,3 +255,4 @@ class DAQIO_stabilityTest():
             
         plt.show()
         self.end_run = True
+        
