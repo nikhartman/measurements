@@ -16,6 +16,13 @@ measurement classes (e.g. keithleypair_IV_swpVar.py) -- These classes/functions 
 
 For example....
 
-If I want to take several IV curves, each at a different magnetic field, using the Keithley 6220 and 2182A, I 
-can use keithleypair_IV_swpVar.IV_MagField(). This function uses instruemnts.oxford_magnet to control the field
-and keithleypair.IVmax1024 (which is a subclass of instruments.K6220_2182A)
+    If I want to take several IV curves, each at a different magnetic field, using the Keithley 6220 and 2182A, I 
+    can use keithleypair_IV_swpVar.IV_MagField(). This function uses instruemnts.oxford_magnet to control the field
+    and keithleypair.IVmax1024 (which is a subclass of instruments.K6220_2182A) to run an IV curve at each magnetic
+    field value.
+
+    The experiment itself is written in the run_simple() function, which saves the data without attempting to 
+    plot it. Plotting is possible through the run() function. This function calls run_simple() as a thread
+    while monitoring the class variable self.data and updating a plot with matplotlib.Animation
+
+This is the general setup for all of the experiments. 
