@@ -22,14 +22,14 @@ Structure
 Example
 =======
 
-    If I want to take several IV curves, each at a different magnetic field, using the Keithley 6220 and 2182A, 
-    I can use keithleypair_IV_swpVar.IV_MagField(). This function uses instruemnts.oxford_magnet to control the 
-    field and keithleypair.IVmax1024 (which is a subclass of instruments.K6220_2182A) to run an IV curve at each 
-    magnetic field value.
+If I want to take several IV curves, each at a different magnetic field, using the Keithley 6220 and 2182A, 
+I can use keithleypair_IV_swpVar.IV_MagField. This class uses instruments.oxford_magnet to control the magnetic
+field and keithleypair.IVmax1024 (which is a subclass of instruments.K6220_2182A) to run an IV curve at each 
+magnetic field value.
 
-    The experiment itself is written in the run_simple() function, which saves the data without attempting to 
-    plot it. Plotting is possible through the run() function. This function calls run_simple() as a thread 
-    while monitoring the class variable self.data and updating a plot with matplotlib.Animation
+The experiment itself is written in the run_simple() function, which saves the data without attempting to 
+plot it. Plotting is possible through the run() function. This function calls run_simple() as a thread 
+while monitoring the class variable self.data and updating a plot with matplotlib.animation
 
 Dependencies
 ============
@@ -45,5 +45,5 @@ Autor and Future Work
 This work was completed by Nik Hartman as a part of his PhD thesis in the Markovic lab at Johns Hopkins University.
 The author can be reached at: nhartman@pha.jhu.edu
 
-I'm interested in continuing this work, but it has reached a point that it has become too discracting from the main
-focus of my measurements. Any collaboration or comments are welcome. 
+I'm interested in continuing this work, but it has reached a point where it has become too discracting from the main
+focus of my experiments. Any collaboration or comments are welcome. 
