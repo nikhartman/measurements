@@ -15,9 +15,9 @@ feedback forthe user quickly becomes very complicated.
 Structure
 =========
 
-    -instruments.py creates a class for each GPIB/RS232 device in our lab as a subclass of some PyVISA instrument 
-    -specific instrument/measurement classes (e.g. nanovoltmeter.py). These create subclasses out of the instruments classes in instruments.py. The idea was to create a class for a specific type of measurement using that particular instrument (IV curve, differential conductance, ...). 
-    -measurement classes (e.g. keithleypair_IV_swpVar.py) -- These classes/functions build specific experiments around the measurement classes defined for each instrument. 
+    - instruments.py creates a class for each GPIB/RS232 device in our lab as a subclass of some PyVISA instrument 
+    - specific instrument/measurement classes (e.g. nanovoltmeter.py). These create subclasses out of the instruments classes in instruments.py. The idea was to create a class for a specific type of measurement using that particular instrument (IV curve, differential conductance, ...). 
+    - measurement classes (e.g. keithleypair_IV_swpVar.py) -- These classes/functions build specific experiments around the measurement classes defined for each instrument. 
 
 Example
 =======
