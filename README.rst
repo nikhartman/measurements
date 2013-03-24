@@ -5,12 +5,12 @@ Transport Measurements
 Overview
 ========
 
-    This set of Python scripts represent my first attempt at real-time data acquisition and plotting 
-    with PyVISA and pylibnidaqmx. 
+This set of Python scripts represent my first attempt at real-time data acquisition and plotting 
+with PyVISA and pylibnidaqmx. 
 
-    The goal was to keep the plotting as simple as possible to facilitate easy writing of new experiment 
-    classes. These measurements do work, but they aren't nearly as reliable as I'd like and adding additional 
-    feedback forthe user quickly becomes very complicated. 
+The goal was to keep the plotting as simple as possible to facilitate easy writing of new experiment 
+classes. These measurements do work, but they aren't nearly as reliable as I'd like and adding additional 
+feedback forthe user quickly becomes very complicated. 
 
 Structure
 =========
@@ -34,16 +34,16 @@ Example
 Dependencies
 ============
 
-    *PyVISA -- http://pyvisa.sourceforge.net/
-    *pylibnidaqmx -- https://code.google.com/p/pylibnidaqmx/
-    *Numpy
-    *matplotlib
+    * PyVISA -- http://pyvisa.sourceforge.net/
+    * pylibnidaqmx -- https://code.google.com/p/pylibnidaqmx/
+    * Numpy
+    * matplotlib
 
 Autor and Future Work
 =====================
 
-    This work was completed by Nik Hartman as a part of his PhD thesis in the Markovic lab at Johns Hopkins University.
-    The author can be reached at: nhartman@pha.jhu.edu
+This work was completed by Nik Hartman as a part of his PhD thesis in the Markovic lab at Johns Hopkins University.
+The author can be reached at: nhartman@pha.jhu.edu
 
-    I'm interested in continuing this work, but it has reached a point that it has become too discracting from the main
-    focus of my measurements. Any collaboration or comments are welcome. 
+I'm interested in continuing this work, but it has reached a point that it has become too discracting from the main
+focus of my measurements. Any collaboration or comments are welcome. 
