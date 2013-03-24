@@ -1,8 +1,15 @@
+======================
+Transport Measurements
+======================
+
+Overview
+========
 This set of Python scripts represent my first attempt at real-time data acquisition and plotting with PyVISA and pylibnidaqmx. 
 
 The goal was to keep the plotting as simple as possible to facilitate easy writing of new experiment classes. These measurements do work, but they aren't nearly as reliable as I'd like and adding additional feedback forthe user quickly becomes very complicated. 
 
-The heirarchy of these experiment functions is as follows...
+Structure
+=========
 
 instruments.py -- Creates a class for each GPIB/RS232 device in our lab as a subclass of some PyVISA instrumentspecific instrument/measurement classes (e.g. nanovoltmeter.py) -- These create subclasses out of the instruments classes in instruments.py. The idea was to create a class for a specific type of measurement using that particular instrument (IV curve, differential conductance, ...). 
 measurement classes (e.g. keithleypair_IV_swpVar.py) -- These classes/functions build specific experiments around the measurement classes defined for each instrument. 
