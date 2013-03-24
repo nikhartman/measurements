@@ -39,7 +39,7 @@ Dependencies
     * Numpy
     * matplotlib
 
-Autor and Future Work
+Author and Future Work
 =====================
 
 This work was completed by Nik Hartman as a part of his PhD thesis in the Markovic lab at Johns Hopkins University.
