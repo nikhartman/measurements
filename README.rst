@@ -43,7 +43,7 @@ Author and Future Work
 =====================
 
 This work was completed by Nik Hartman as a part of his PhD thesis in the Markovic lab at Johns Hopkins University.
-The author can be reached at: nhartman@pha.jhu.edu
+The author can be reached at: nik.hartman@gmail.com
 
-I'm interested in continuing this work, but it has reached a point where it has become too discracting from the main
+I'm interested in continuing this work, but it has reached a point where it has become too distracting from the main
 focus of my experiments. Any collaboration or comments are welcome. 
