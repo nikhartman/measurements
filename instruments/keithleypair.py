@@ -6,7 +6,7 @@
 from __future__ import division
 import time
 import instruments #creates the source object
-from exptools import buffer_split
+from exptools.exptools import buffer_split
 
 class IVmax1024(instruments.K6220_2182A):
 

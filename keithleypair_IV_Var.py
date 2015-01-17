@@ -20,9 +20,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import nidaqmx
-import exptools as tools
-import instruments
-import keithleypair
+import exptools.exptools as tools
+import instruments.instruments as instruments
+import instruments.keithleypair as keithleypair
 from threading import Thread
     
 class IV_MagField():

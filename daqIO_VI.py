@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pylab as plt
 import matplotlib.animation as animation
 import nidaqmx
-import exptools as tools
+import exptools.exptools as tools
 from threading import Thread
     
 class DAQIO_gateTest():
